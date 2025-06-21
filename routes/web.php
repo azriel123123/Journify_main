@@ -6,7 +6,7 @@ use App\Http\Controllers\registerController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('pages.auth.login');
+    return view('frontend.homepage2.view');
 });
 
 Route::get('/home', [homeController::class, 'index'])->name('home');
