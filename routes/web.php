@@ -10,8 +10,6 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [homeController::class, 'index'])->name('home');
-Route::get('/register', [registerController::class, 'create'])->name('register');
-
 Route::resource('category', CategoryController::class);
 
 // aktifin klo pronen udh jadi

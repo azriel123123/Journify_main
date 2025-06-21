@@ -40,6 +40,12 @@
 
                 <!-- Form -->
                 <form class="space-y-8 bg-white/40 border border-white/30 backdrop-blur-2xl rounded-3xl shadow-xl p-8">
+                    <div>
+                        <label class="block text-lg font-semibold text-indigo-800 mb-2">Journal Title</label>
+                        <input type="text"
+                            class="w-full p-4 rounded-xl border border-indigo-200 bg-white/60 focus:outline-none focus:ring-2 focus:ring-indigo-300 shadow-inner"
+                            placeholder="Enter your journal title..." />
+                    </div>
                     <!-- Question 1 -->
                     <div>
                         <label class="block text-lg font-semibold text-indigo-800 mb-2">How do you feel today?</label>
